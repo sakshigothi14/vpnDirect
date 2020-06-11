@@ -1,0 +1,45 @@
+PODS:
+  - CocoaAsyncSocket (7.6.4)
+  - Criollo (0.5.5):
+    - CocoaAsyncSocket (~> 7.6)
+  - OpenVPNAdapter (0.6.0):
+    - OpenVPNAdapter/ASIO (= 0.6.0)
+    - OpenVPNAdapter/LZ4 (= 0.6.0)
+    - OpenVPNAdapter/mbedTLS (= 0.6.0)
+    - OpenVPNAdapter/OpenVPN3 (= 0.6.0)
+    - OpenVPNAdapter/OpenVPNAdapter (= 0.6.0)
+    - OpenVPNAdapter/OpenVPNClient (= 0.6.0)
+  - OpenVPNAdapter/ASIO (0.6.0)
+  - OpenVPNAdapter/LZ4 (0.6.0)
+  - OpenVPNAdapter/mbedTLS (0.6.0)
+  - OpenVPNAdapter/OpenVPN3 (0.6.0)
+  - OpenVPNAdapter/OpenVPNAdapter (0.6.0)
+  - OpenVPNAdapter/OpenVPNClient (0.6.0)
+
+DEPENDENCIES:
+  - Criollo
+  - OpenVPNAdapter (from `https://github.com/ss-abramchuk/OpenVPNAdapter.git`, tag `0.6.0`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - Criollo
+
+EXTERNAL SOURCES:
+  OpenVPNAdapter:
+    :git: https://github.com/ss-abramchuk/OpenVPNAdapter.git
+    :tag: 0.6.0
+
+CHECKOUT OPTIONS:
+  OpenVPNAdapter:
+    :git: https://github.com/ss-abramchuk/OpenVPNAdapter.git
+    :tag: 0.6.0
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  Criollo: 617173837c296ca4248b0b058f36ce9b91e5c25b
+  OpenVPNAdapter: 5a81788e3f28de2ef1be07c4b21b16fba8ffea4c
+
+PODFILE CHECKSUM: ec89bb32588f1160dd35be5d19a8461394803f28
+
+COCOAPODS: 1.9.3
